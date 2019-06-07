@@ -1,6 +1,6 @@
 {
   "name": "@tmcw/numeric",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "repackaged numeric.js for browsers",
   "main": "dist/numeric.js",
   "scripts": {
