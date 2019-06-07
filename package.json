@@ -1,0 +1,25 @@
+{
+  "name": "@tmcw/numeric",
+  "version": "1.0.0",
+  "description": "repackaged numeric.js for browsers",
+  "main": "dist/numeric.js",
+  "scripts": {
+    "build": "microbundle",
+    "prepublishOnly": "microbundle"
+  },
+  "files": [
+    "dist"
+  ],
+  "source": "src/numeric.js",
+  "umd:main": "dist/numeric.umd.js",
+  "jsdelivr": "dist/numeric.umd.js",
+  "unpkg": "dist/numeric.umd.js",
+  "module": "dist/numeric.es.js",
+  "repository": "https://github.com/tmcw/numeric.git",
+  "author": "Tom MacWright <tom@macwright.org>",
+  "license": "MIT",
+  "homepage": "https://github.com/tmcw/numeric/",
+  "dependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
