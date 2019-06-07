@@ -1,6 +1,7 @@
 "use strict";
 
-export const numeric = {};
+const numeric = {}
+export default numeric;
 
 numeric.version = "1.2.6";
 
